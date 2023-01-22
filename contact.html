@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+  <h1> Contact Information </h1>
+  <ul>
+    
+    <li> iemrhdmn@gmail.com </li>
+    <li> 0553 689 3595 </li>
+  </ul>
+</body>
+  
+  <form action="mailto:iemrhdmn@gmail.com">
+      <table>
+        <tr>
+          <td><label for="username">Your Name:</label></td>
+          <td>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              min="3"
+              max="40"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="email">Your Email:</label></td>
+          <td><input type="email" name="email" id="email" required /></td>
+        </tr>
+        <tr>
+          <td><label for="message">Your Message:</label></td>
+          <td>
+            <textarea
+              minlength="15"
+              maxlength="300"
+              name="message"
+              id="message"
+              cols="21"
+              rows="10"
+              required
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2"><button>Submit</button></td>
+        </tr>
+      </table>
+    </form>
+    </html>
